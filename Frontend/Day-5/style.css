@@ -1,0 +1,32 @@
+body{
+    background: #00b7fffb;
+    height: 100%;
+}
+.button{
+    border-radius: 20%;
+    width: 52px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgba(0, 0, 97, 0.699);
+    border: none;
+    color: white;
+}
+.textview{
+    border-radius: 20%;
+    width: 218px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid blue;
+    color: #0a9ce6;
+}
+.container{
+    border: 5px solid black;
+    background: rgba(255, 146, 3, 0.651);
+    border-radius: 10%;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+} 
