@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #ff3434;
+    display: flex;
+}
+
+.gamecontainer{
+    width: 600px;
+    height: 600px;
+    margin-left: -470px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.imgs{
+    width: 23%;
+    height: 23%;
+    margin: 5px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.imgs:active{
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgs.flip{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.front, .back{
+    background-color: #ff5252;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front{
+    transform: rotateY(180deg);
+}
