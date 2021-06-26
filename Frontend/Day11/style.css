@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff3434;
+  }
+  
+  .heading {
+    height: 4vh;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0px;
+    color: black;
+  }
+  
+  .wAns {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 0.5px solid black;
+    width: 150px;
+  }
+  
+  .cAns {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 0.5px solid black;
+    width: 150px;
+  }
+  
+  .end {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    border: 0.5px solid black;
+    width: 150px;
+  }
+  
+  #score {
+    color: black;
+    font-weight: bold;
+  }
+  
+  section {
+    margin: 10px 0;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .quiz {
+    width: 65vw;
+    height: 440px;
+    background-color: aliceblue;
+    padding: 10px 0px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px black;
+  }
+  
+  .opt {
+    margin: 15px 0px;
+  }
+  
+  .btn {
+    width: 120px;
+    border: 1px solid rgb(11, 158, 243);
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(11, 158, 243);
+    color: white;
+    cursor: pointer;
+  }
+
+#reset{
+    margin-top: -90px;
+    margin-right: -880px;
+}
+
+p1{
+    margin-top: -100px;
+    margin-left: 900px;
+    border: 2px solid rgb(11, 158, 243);
+    border-radius: 5px;
+    background-color: rgb(11, 158, 243);;
+    color: white;
+}

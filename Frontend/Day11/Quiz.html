@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THA-11 Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="heading">Awesome Quiz</p>
+
+    <div class="wAns">Wrong Answer</div>
+    <div class="cAns">Correct Answer</div>
+    <div class="end">Game Over</div>
+
+    <section>
+      
+      <div class="quiz">
+        <p1 style="font-size: 20px;">Score: <span id="score" style="color: white;">0</span></p1>
+        <h2 id="question">Question</h2>
+    
+        <div class="options">
+          <div class="opt">
+            <p id="opt1-statement">A</p>
+            <p id="opt1" class="btn">Select Answer</p>
+          </div>
+          <div class="opt">
+            <p id="opt2-statement">B</p>
+            <p id="opt2" class="btn">Select Answer</p>
+          </div>
+          <div class="opt">
+            <p id="opt3-statement">C</p>
+            <p id="opt3" class="btn">Select Answer</p>
+          </div>
+          <div class="opt">
+            <p id="opt4-statement">D</p>
+            <p id="opt4" class="btn">Select Answer</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="reset" class="btn" style="text-align: center">
+        Reset
+      </div>
+    </section>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
