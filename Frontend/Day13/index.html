@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+      <img src="wet.jpg">
+    <h1>
+      <i class="far fa-snowflake"></i>Check Weather<i class="far fa-snowflake"></i>
+    </h1>
+    <div class="container">
+      <div class="main">
+        <div class="inp">
+          <input
+            type="text"
+            id="city"
+            name="search"
+            placeholder="City Name"
+            autocomplete="off"
+          />
+          <input type="button" value="Search" id="searchBtn" />
+        </div>
+        <div class="show">
+          <p>
+            Temperatue Now: <span id="temp">&nbsp;&nbsp;&nbsp;</span> &deg;C
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Created By Carnage</p>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
+</html>

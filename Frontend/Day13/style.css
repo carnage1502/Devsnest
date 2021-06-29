@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Piazzolla", serif;
+}
+
+body {
+  background-color: rgb(255, 232, 169);
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fa-snowflake {
+  color: #0097e6;
+  padding: 0 10px;
+  transition: all linear;
+  animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  font-size: 20px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.inp {
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.inp input[type="text"] {
+  padding: 5px 7px;
+  background: rgb(30, 32, 43);
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+}
+
+.inp input[type="button"] {
+  position: relative;
+  bottom: 2.5px;
+  right: 73px;
+  border: none;
+  background: #260ff3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: rgb(241, 236, 236);
+  font-size: 15px;
+}
+
+.show {
+  padding-left: 80px;
+}
+
+#temp {
+  color: #151d17f8;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #1e272e;
+  margin-top: auto;
+  box-shadow: 0 4px 4px 1px grey;
+  margin-left: 400px;
+  border-radius: 20px;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+img{
+    position: absolute;
+    width: 200px;
+    margin-left: 670px;
+    margin-top: 60px;
+}
