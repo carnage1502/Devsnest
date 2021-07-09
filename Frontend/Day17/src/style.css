@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .heading {
+    font-size: 40px;
+    margin-left: 650px;
+    position: absolute;
+    text-decoration: underline;
+    margin-top: 40px;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  
+  .card {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0px 1px 10px 2px black;
+    background-color: aliceblue;
+  }
+  
+  .info {
+    background-color: rgb(18, 152, 241);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+  }
