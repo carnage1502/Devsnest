@@ -1,0 +1,21 @@
+
+.container{
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  margin-top: 100px;
+  overflow-y: auto;
+  box-shadow: 0px 1px 10px 2px black;
+  background-color: aliceblue;
+  justify-content: center;
+  margin-left: 500px;
+}
+.btn{
+  width: 60px;
+  height: 35px;
+  position: relative;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+}
