@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(233, 216, 168);
+}
+
+.App h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+.template {
+  width: 33.33%;
+  display: inline-block;
+  border: 10px solid transparent;
+}
+
+.template .image {
+  width: 480px;
+  height: 480px;
+  border: 1px solid black;
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.meme {
+  text-align: center;
+}
+
+.meme img {
+  width: auto;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.meme input {
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+.meme button {
+  font-family: 'Noto Sans JP';
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
