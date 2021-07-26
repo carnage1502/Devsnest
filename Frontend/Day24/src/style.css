@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+*{
+  font-family: 'Noto Sans JP';
+}
+.navbar,
+.navbar ul {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.navbar {
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  background-color: #9465b4;
+}
+
+.navbar ul {
+  list-style: none;
+  justify-content: space-around;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.main {
+  text-align: center;
+}
