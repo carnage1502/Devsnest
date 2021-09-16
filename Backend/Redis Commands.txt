@@ -1,8 +1,0 @@
-SET name Shivam # For storing name
-Get name # To get name
-DEL name # Delete name
-EXISTS name # To check whether key exist or not
-FLUSHALL # Delete all
-ttl name # Time on name
-expire name 10 # Expire name 10
-setex name 10 shivam # Set name for 10 seconds and then delete
